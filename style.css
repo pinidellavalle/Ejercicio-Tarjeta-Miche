@@ -134,6 +134,58 @@ body{
     .c4{
         margin-right: 200px;
     }
-
-
 } 
+
+@media only screen and (max-width: 480px) {
+
+    .todo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar{
+        width: 380px;
+        display: flex;
+        justify-content: center;
+        border-bottom: 0px;
+    }
+
+    .doscoltxt{
+        border-left: 2px solid black;
+        font-size: 14px;
+        width: 380px;
+    }
+
+    .dccc{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cincocaras{
+        border-left: 2px solid black;
+        height: 250px;
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-between;
+    }
+    
+    .cara{
+        padding-left: 8px;
+        width: 70px;
+        height: 70px;
+    }
+    
+    .cara img{
+        width: 100%;
+        height: auto;
+    }
+
+    .c1{
+        margin-right: 100px;
+    }
+
+    .c4{
+        margin-right: 100px;
+    }
