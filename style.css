@@ -114,15 +114,17 @@ body{
 
     .cincocaras{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .c1, .c4{
         align-self: flex-start;
+        margin-top: 4%;
     }
 
     .c2, .c5{
         align-self: flex-end;
+        margin-bottom: 4%;
     }
 
     .c3{
