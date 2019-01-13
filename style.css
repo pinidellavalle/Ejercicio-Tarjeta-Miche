@@ -76,6 +76,15 @@ body{
     justify-content: center;
 }
 
+.a1y2{
+    display: flex;
+    flex-direction: row;
+}
+.a4y5{
+    display: flex;
+    flex-direction: row;
+}
+
 .cara{
     padding-left: 8px;
     width: 90px;
@@ -86,6 +95,7 @@ body{
     width: 100%;
     height: auto;
 }
+
 
 /*MEDIA QUERIES PARA TODES*/
 
@@ -110,34 +120,20 @@ body{
     .cincocaras{
         border-left: 2px solid black;
         height: 350px;
-    }
-
-    .cincocaras{
+        width: 534  px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: space-between;
+    }
+    
+    .c1{
+        margin-right: 200px;
     }
 
-    .c1, .c4{
-        align-self: flex-start;
-        margin-top: 4%;
-    }
-
-    .c2, .c5{
-        align-self: flex-end;
-        margin-bottom: 4%;
-    }
-
-    .c3{
-        align-self: center;
+    .c4{
+        margin-right: 200px;
     }
 
 
 } 
-
-
-
-
-
-
-
-
