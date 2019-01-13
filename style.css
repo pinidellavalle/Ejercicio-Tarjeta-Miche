@@ -100,23 +100,37 @@ body{
         width: 534px;
         display: flex;
         justify-content: center;
+        border-bottom: 0px;
+    }
+
+    .doscoltxt{
+        border-left: 2px solid black;
+    }
+
+    .cincocaras{
+        border-left: 2px solid black;
+        height: 350px;
+    }
+
+    .cincocaras{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .c1, .c4{
+        align-self: flex-start;
+    }
+
+    .c2, .c5{
+        align-self: flex-end;
+    }
+
+    .c3{
+        align-self: center;
     }
 
 
 } 
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
