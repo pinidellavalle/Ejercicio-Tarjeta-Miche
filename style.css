@@ -89,6 +89,21 @@ body{
 
 /*MEDIA QUERIES PARA TODES*/
 
+@media only screen and (max-width: 780px) {
+
+    .todo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar{
+        width: 534px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+} 
 
 
 
